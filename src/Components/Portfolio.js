@@ -13,7 +13,7 @@ class Portfolio extends Component {
                 <br/>Created a Web version for the Reddit App New Feeds. The home page displays the list of subreddits to choose from, which further links to the subreddit page that displays all the posts of that sunreddit.
                 <br/>Functionalities implemented were voting, comment, share, infinite scrolling, stop infinite retrying on error, etc.
               </p>
-              <h3>Reddit App using ReactJS</h3>
+              <h3>Hacker News App using React Native</h3>
               <p><a href="https://www.youtube.com/watch?v=MU4chvrRHHQ">Check it live here</a>
                 <br/><a href="https://github.com/jp0707/hn">Code</a>
                 <br/>Developed an App for which displays a list of news, each news displays the article and comments in different tabs.
