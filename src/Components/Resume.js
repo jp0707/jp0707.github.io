@@ -3,33 +3,10 @@ import React, { Component } from 'react';
 class Resume extends Component {
   render() {
     return (
-      <section id="resume">
-
+      <section id="resume" className="resume">
       <div className="row resumeparts">
         <div className="three columns header-col">
-          <h1><span>Education</span></h1>
-        </div>
-        <div className="nine columns main-col">
-          <div className="row item">
-            <div className="twelve columns">
-              <h3>St. Francis Institute of Technology</h3>
-              <p className="info">B.E. in Information Technology 
-                <span>&bull;</span>
-                <em className="date">May 2016</em>
-              </p>
-              <p style={{'marginBottom': 0}}> Project : <b>Access Control Mechanism Using Eye Veins Identification. </b></p>
-              <ul>
-                <li>The team had developed a MatLab software application for eye vein identification.</li>
-                <li>It was used for access control and authorization as the accuracy of eye vein identification is more as compared to other biometric methods.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="row resumeparts">
-        <div className="three columns header-col">
-          <h1><span>Work</span></h1>
+          <h1><span>EXPERIENCE</span></h1>
         </div>
         <div className="nine columns main-col">
           <div>
@@ -96,6 +73,24 @@ class Resume extends Component {
             <li>Jira</li>
             <li>APIGEE</li>
           </ul>
+        </div>
+      </div>
+      
+      <div id="education" className="row resumeparts">
+        <div className="three columns header-col">
+          <h1><span>Education</span></h1>
+        </div>
+        <div className="nine columns main-col">
+              <h3>St. Francis Institute of Technology</h3>
+              <p className="info">B.E. in Information Technology 
+                <span>&bull;</span>
+                <em className="date">May 2016</em>
+              </p>
+              <p style={{'marginBottom': 0}}> Project : <b>Access Control Mechanism Using Eye Veins Identification. </b></p>
+              <ul>
+                <li>The team had developed a MatLab software application for eye vein identification.</li>
+                <li>It was used for access control and authorization as the accuracy of eye vein identification is more as compared to other biometric methods.</li>
+              </ul>
         </div>
       </div>
    </section>

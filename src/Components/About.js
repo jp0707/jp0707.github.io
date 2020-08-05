@@ -16,11 +16,15 @@ class About extends Component {
             </p>
             <div className="row">
               <div className="columns download">
-                <p><a href="https://jp0707.github.io/Jyoti_Patel_Resume.pdf" className="button"><i className="fa fa-download"></i>Download Resume</a></p>
+                <p><a href="/Jyoti_Patel_Resume.pdf" className="button"><i className="fa fa-download"></i>Resume</a></p>
               </div>
-            </div>
-            <div className="download">
-              <p><a href="https://www.linkedin.com/in/jyoti-patel-0x" className="button">LinkedIn Profile</a></p>
+            
+              <div className="columns download">
+                <p><a href="https://www.linkedin.com/in/jyoti-patel-0x" className="button"><i className="fa fa-linkedin"></i>LinkedIn</a></p>
+              </div>
+              <div className="columns download">
+                <p><a href="https://github.com/jp0707" className="button"><i className="fa fa-github"></i>GitHub</a></p>
+              </div>
             </div>
          </div>
       </div>
