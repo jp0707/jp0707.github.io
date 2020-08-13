@@ -14,7 +14,7 @@ class Portfolio extends Component {
                 <ul>
                   <li><a href="https://reddit-react.jyoti.dev/">Check it live here</a></li>
                   <li><a href="https://github.com/jp0707/reddit-react" title="Reddit">Code</a></li>
-                  <li>Created a Web version for the Reddit App New Feeds. The home page displays the list of subreddits to choose from, which further links to the subreddit page that displays all the posts of that sunreddit.</li>
+                  <li>Created a Web version for the Reddit App News Feeds. The home page displays the list of subreddits to choose from, which further links to the subreddit page that displays all the posts of that subreddit.</li>
                   <li>Implemented 
                   <a href="https://github.com/jp0707/reddit-react/blob/839463f25d2f5dd20c283a1bb54bee7cd435f666/src/Feed.js#L51:L71"> infinite scrolling</a>,
                   <a href="https://github.com/jp0707/reddit-react/blob/9c9618278c4cdde1997d892e3a82a44e16bfae47/src/ShareButton.js#L17:L31"> native sharing</a>, 
@@ -23,9 +23,9 @@ class Portfolio extends Component {
                 </ul>
                 <h3>Hacker News App using React Native</h3>
                 <ul>
-                  <li><a href="https://youtu.be/woYhWfJ4cBo">Check it live here</a></li>
+                  <li><a href="https://youtu.be/woYhWfJ4cBo">See this Video</a></li>
                   <li><a href="https://github.com/jp0707/hn">Code</a></li>
-                  <li>Developed an App for which displays a list of news, each news displays the article and comments in different tabs.</li>
+                  <li>Developed an App that displays a list of news, each news displays the article and comments in different tabs.</li>
                   <li>Implemented 
                   <a href="https://github.com/jp0707/hn/blob/396e122e477325e0e70a51d139ebcc77cefd0c1f/src/Feed.js#L70:L79"> infinite scrolling</a>, 
                   <a href="https://github.com/jp0707/hn/blob/396e122e477325e0e70a51d139ebcc77cefd0c1f/src/Feed.js#L59:L68"> pull to refresh</a>, 
