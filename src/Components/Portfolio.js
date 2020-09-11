@@ -6,6 +6,31 @@ class Portfolio extends Component {
       <section id="portfolio" className="resume">
         <div className="row resumeparts">
           <div className="three columns header-col">
+            <h1>Open Source <span>Contributions</span></h1>
+          </div>
+          <div className="nine columns main-col">
+            <div>
+              <h3>For Mattermost WebApp</h3>
+                <ul>
+                  <li><a href="https://github.com/mattermost/mattermost-webapp/commit/b1ec977c1eca1dcd9552b23c1b091f26a4d8a793">Pull Request showing implemention of hotkeys for bold/italic markdown</a></li>
+                  <dd>Implements hotkeys for bold/italic markdown in post and comment creation. It adds appropriate markdown if selected text doesn't have it. In case selected text already has markdown around it, then it removes the markdown (undo). Also works on empty selection in which case it starts the markdown.</dd>
+                </ul>
+            </div>
+            <div>
+              <h3>For Mattermost Mobile App</h3>
+                <ul>
+                  <li><a href="">Pull Request for improving empty state for Recent Mentions, Pinned messages and Flagged post</a></li>
+                  <dd>Empty state screens where implemented as per the figma files provided by mattermost.</dd>
+                </ul>
+                <ul>
+                  <li><a href="">Pull Request for implementing notification preferences under channel settings</a></li>
+                  <dd>Added the ability to modify mobile push notifications from mattermost mobile app for both iOS and android versions. UI designed according to figma files provided by mattermost.</dd>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div className="row resumeparts">
+          <div className="three columns header-col">
             <h1><span>Projects</span></h1>
           </div>
           <div className="nine columns main-col">
