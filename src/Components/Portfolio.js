@@ -19,11 +19,11 @@ class Portfolio extends Component {
             <div>
               <h3>For Mattermost Mobile App</h3>
                 <ul>
-                  <li><a href="">Pull Request for improving empty state for Recent Mentions, Pinned messages and Flagged post</a></li>
+                  <li><a href="https://github.com/mattermost/mattermost-mobile/commit/c9c22583d80aa9f91c9266e3ebf7b6dddc24b025">Pull Request for improving empty state for Recent Mentions, Pinned messages and Flagged post</a></li>
                   <dd>Empty state screens where implemented as per the figma files provided by mattermost.</dd>
                 </ul>
                 <ul>
-                  <li><a href="">Pull Request for implementing notification preferences under channel settings</a></li>
+                  <li><a href="https://github.com/mattermost/mattermost-mobile/commit/b6920770f19f2a6079f48eb279d5db9dd7ffb78e">Pull Request for implementing notification preferences under channel settings</a></li>
                   <dd>Added the ability to modify mobile push notifications from mattermost mobile app for both iOS and android versions. UI designed according to figma files provided by mattermost.</dd>
                 </ul>
             </div>
