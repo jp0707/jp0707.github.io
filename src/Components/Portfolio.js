@@ -12,19 +12,18 @@ class Portfolio extends Component {
             <div>
               <h3>For Mattermost WebApp</h3>
                 <ul>
-                  <li><a href="https://github.com/mattermost/mattermost-webapp/commit/b1ec977c1eca1dcd9552b23c1b091f26a4d8a793">Pull Request showing implemention of hotkeys for bold/italic markdown</a></li>
-                  <dd>Implements hotkeys for bold/italic markdown in post and comment creation. It adds appropriate markdown if selected text doesn't have it. In case selected text already has markdown around it, then it removes the markdown (undo). Also works on empty selection in which case it starts the markdown.</dd>
+                  <li><a href="https://github.com/mattermost/mattermost-webapp/pull/6230">Implemented hotkeys for bold and italic markdown</a></li>
+                  <dd>Works for bold and italic markdown in post, comment and reply textbox. It adds appropriate markdown if selected text doesn't have it. In case selected text already has markdown around it, then it removes the markdown (undo). Also works on empty selection in which case it starts the markdown.</dd>
                 </ul>
             </div>
             <div>
               <h3>For Mattermost Mobile App</h3>
                 <ul>
-                  <li><a href="https://github.com/mattermost/mattermost-mobile/commit/c9c22583d80aa9f91c9266e3ebf7b6dddc24b025">Pull Request for improving empty state for Recent Mentions, Pinned messages and Flagged post</a></li>
-                  <dd>Empty state screens where implemented as per the figma files provided by mattermost.</dd>
+                  <li><a href="https://github.com/mattermost/mattermost-mobile/pull/4730">Implemented notification preferences under channel settings</a></li>
+                  <dd>Adds the ability to modify mobile push notifications from mattermost mobile app for both iOS and android versions. UI designed according to specs provided by mattermost.</dd>
                 </ul>
                 <ul>
-                  <li><a href="https://github.com/mattermost/mattermost-mobile/commit/b6920770f19f2a6079f48eb279d5db9dd7ffb78e">Pull Request for implementing notification preferences under channel settings</a></li>
-                  <dd>Added the ability to modify mobile push notifications from mattermost mobile app for both iOS and android versions. UI designed according to figma files provided by mattermost.</dd>
+                  <li><a href="https://github.com/mattermost/mattermost-mobile/pull/4715">Improved empty state screen for Recent Mentions, Pinned messages and Flagged post</a></li>
                 </ul>
             </div>
           </div>
