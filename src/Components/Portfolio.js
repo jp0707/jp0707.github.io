@@ -14,6 +14,7 @@ class Portfolio extends Component {
                 <ul>
                   <li><a href="https://github.com/mattermost/mattermost-webapp/pull/6230">Implemented hotkeys for bold and italic markdown</a></li>
                   <dd>Works for bold and italic markdown in post, comment and reply textbox. It adds appropriate markdown if selected text doesn't have it. In case selected text already has markdown around it, then it removes the markdown (undo). Also works on empty selection in which case it starts the markdown.</dd>
+                  <li><a href="https://github.com/mattermost/mattermost-webapp/pulls?q=is%3Apr+author%3Ajp0707+">See All Contributions</a></li>
                 </ul>
             </div>
             <div>
@@ -21,9 +22,8 @@ class Portfolio extends Component {
                 <ul>
                   <li><a href="https://github.com/mattermost/mattermost-mobile/pull/4730">Implemented notification preferences under channel settings</a></li>
                   <dd>Adds the ability to modify mobile push notifications from mattermost mobile app for both iOS and android versions. UI designed according to specs provided by mattermost.</dd>
-                </ul>
-                <ul>
                   <li><a href="https://github.com/mattermost/mattermost-mobile/pull/4715">Improved empty state screen for Recent Mentions, Pinned messages and Flagged post</a></li>
+                  <li><a href="https://github.com/mattermost/mattermost-mobile/pulls?q=is%3Apr+author%3Ajp0707">See All Contributions</a></li>
                 </ul>
             </div>
           </div>
