@@ -9,10 +9,9 @@ class About extends Component {
          </div>
          <div className="nine columns main-col">
             <h2>About Me</h2>
-            <p>Developer-Cloud Apps Engaged in Digital Cloud APIs Delivery and practices. 
-            <br/>Three years of Experience in API Management tools such as APIGEE with knowledge in JavaScript, NodeJS, SOAP, and Restful Webservices. 
-            <br/>Experience on multiple devOps tools and Agile methodologies like GitHub, Bitbucket, Jenkins, AGILE and Jira. 
-            <br/>Have worked for Major Client of Retail and Telecom. Also includes Analysing and Development of solution to meet enterprise requirement.
+            <p>
+              I am a Full Stack Software Developer based in Kitchener, Ontario, with over 5 years of experience building scalable web and mobile applications. My expertise lies in the React ecosystem (React, React Native) and robust backend architectures using NestJS and TypeORM.
+              <br/><br/>Most recently, I’ve focused on developing complex property management systems and contributing to high-impact open-source projects like Mattermost, where I’ve help with UI redesigns and improved performance. I enjoy bridging the gap between elegant frontend design and efficient database management.
             </p>
             <div className="row">
               <div className="columns download">
