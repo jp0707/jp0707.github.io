@@ -10,6 +10,36 @@ class Resume extends Component {
         </div>
         <div className="nine columns main-col">
           <div>
+            <h3>Weavik Inc., Waterloo, ON</h3>
+            <p className="info">Software Developer
+              <span>&bull;</span>
+              <em className="date">May 2021 - Present</em>
+            </p>
+
+            <ul>
+              <li>As a full-stack developer, I worked on mobile &amp; web frontends (React, React Native, and VueJS) and backend (NestJS &amp; TypeORM), depending on project needs.</li>
+              <li>Worked with three clients: a provincial government client on a digital wallet mobile app, a private client for property management mobile &amp; web apps, and a private client for a crypto mobile app. Highlights include:
+                <ul>
+                  <li><strong>Property management (web &amp; mobile apps):</strong>
+                    <ul>
+                      <li>Built end-to-end OTP verification and SMS notifications flows using Twilio.</li>
+                      <li>Built app notifications and analytics using OneSignal.</li>
+                      <li>Worked across both frontend (web &amp; mobile app) and backends (endpoints, cron jobs) to build features based on specifications.</li>
+                    </ul>
+                  </li>
+                  <li><strong>Govt-client’s digital wallet (mobile app):</strong>
+                    <ul>
+                      <li>Built features for a provincial govt’s digital-wallet mobile app in React Native and Redux (for global state management).</li>
+                      <li>Presented demos to provincial government client as needed.</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Collaborated with PMs and designers to understand and refine project requirements, UI flows, and edge cases.</li>
+            </ul>
+            <p className="newline"></p>
+          </div>
+          <div>
             <h3>Tata Consultancy Services, Mumbai</h3>
             <p className="info">Asst. System Engineer
               <span>&bull;</span>
@@ -51,9 +81,11 @@ class Resume extends Component {
         <div className="nine columns main-col">
           <ul>
             <li>ReactJS and React Native</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
+            <li>VueJS</li>
+            <li>NestJS</li>
+            <li>TypeORM</li>
+            <li>Typescript and Javascript</li>
+            <li>HTML and CSS</li>
             <li>SQL</li>
             <li>JAVA</li>
             <li>API development</li>
@@ -81,7 +113,7 @@ class Resume extends Component {
           <h1><span>Education</span></h1>
         </div>
         <div className="nine columns main-col">
-              <h3>St. Francis Institute of Technology</h3>
+              <h3>University of Mumbai, Mumbai, India</h3>
               <p className="info">B.E. in Information Technology 
                 <span>&bull;</span>
                 <em className="date">May 2016</em>
